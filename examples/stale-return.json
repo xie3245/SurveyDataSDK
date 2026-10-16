@@ -1,0 +1,32 @@
+{
+  "base_revision": "2",
+  "batch": {
+    "device_id": "instrument-1",
+    "frame": "LOCAL_METRES",
+    "id": "demo-batch",
+    "observations": [
+      {
+        "id": "original",
+        "x": 1.25,
+        "y": 2.5,
+        "z": 3.75
+      },
+      {
+        "id": "from-b",
+        "x": 10.0,
+        "y": 20.0,
+        "z": 30.0
+      },
+      {
+        "id": "offline-point",
+        "x": 40.0,
+        "y": 50.0,
+        "z": 60.0
+      }
+    ],
+    "state": "open",
+    "units": "m"
+  },
+  "exchange_version": 1,
+  "origin": "app-a"
+}

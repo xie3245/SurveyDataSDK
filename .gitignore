@@ -1,0 +1,7 @@
+/build*/
+/package/
+/roundtrip-*/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm

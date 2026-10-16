@@ -1,0 +1,12 @@
+Checks: >-
+  -*,
+  clang-analyzer-core.*,
+  clang-analyzer-cplusplus.*,
+  bugprone-use-after-move,
+  bugprone-integer-division,
+  bugprone-sizeof-expression,
+  performance-unnecessary-copy-initialization,
+  performance-unnecessary-value-param,
+  modernize-use-nullptr
+WarningsAsErrors: "*"
+HeaderFilterRegex: '(^|[\\/])include[\\/]survey[\\/]'
