@@ -1,6 +1,6 @@
 # Survey Data SDK
 
-A C++20 learning project for modelling, storing and exchanging small batches of 3D measurements. It combines a domain model, SQLite persistence, JSON exchange, GoogleTest/GoogleMock tests and a CMake build with GitHub Actions.
+A learning project for modelling, storing and exchanging small batches of 3D measurements. It combines a domain model, SQLite persistence, JSON exchange, GoogleTest/GoogleMock tests and a CMake build with GitHub Actions.
 
 I used AI assistance for the initial implementation and subsequent changes. My work has focused on studying the code, challenging its assumptions and driving improvements in testing, tooling and consistency. **The examples below show how that learning led to changes and further design questions.**
 
